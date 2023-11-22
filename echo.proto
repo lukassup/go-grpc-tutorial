@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "/pb";
+
+service EchoService {
+    rpc Echo(Request) returns (Response) {}
+}
+
+message Request {
+    string data = 1;
+}
+
+message Response {
+    enum Status {
+        OK = 0;
+        ERR = 1;
+        UNKNOWN = 2;
+    }
+    string data = 1;
+    Status status = 2;
+}
