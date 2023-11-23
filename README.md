@@ -4,8 +4,8 @@
 
 - Installed Go, e.g. for macOS `brew install go` or use [`gvm`](https://github.com/moovweb/gvm)
 - Installed `protoc` (for macOS: `brew install protobuf`)
-- Installed `protoc-gen-go` (`go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.28`)
-- Installed `protoc-gen-go-grpc` (`go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2`)
+- Installed `protoc-gen-go` (`go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.31`)
+- Installed `protoc-gen-go-grpc` (`go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.3`)
 - Setup environment variable `PATH` to include `$GOPATH/bin`
 - Recommend editor [Visual Studio Code](https://code.visualstudio.com/) with [`vscode-proto3` extension](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3) to compile protobufs on save (or Ctrl+P > compile to compile manually)
 
